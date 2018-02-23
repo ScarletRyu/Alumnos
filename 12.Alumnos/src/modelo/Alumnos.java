@@ -1,15 +1,24 @@
 package modelo;
 
+import java.util.ArrayList;
+
 public class Alumnos {
 
 	private int id;
 	private String dni;
 	private String nombre;
 	private String email;
+	//ArrayList de la relacion
+	private ArrayList<Matricula> matriculas;
 	
 	
 	
-	
+	public ArrayList<Matricula> getMatriculas() {
+		return matriculas;
+	}
+	public void setMatriculas(ArrayList<Matricula> matriculas) {
+		this.matriculas = matriculas;
+	}
 	/**
 	 * @return the id
 	 */

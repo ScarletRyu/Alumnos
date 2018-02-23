@@ -3,9 +3,11 @@ package modelo;
 import java.sql.Date;
 
 public class Matricula {
+private Date fecha;
+//Atributos heredados de la relacion
 private int id_alumno;
 private int id_asignatura;
-private Date fecha;
+
 
 
 
